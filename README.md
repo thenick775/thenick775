@@ -48,7 +48,7 @@ I'm a student of Computer Science, currently beginning my masters at the Univers
           width="80"
       />
       <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html">
-        <img width="80" height="80" src="https://github.com/thenick775/testreadme/blob/main/apple_objectivec-icon.svg"></img>
+        <img width="80" height="80" src="https://github.com/thenick775/thenick775/blob/main/apple_objectivec-icon.svg"></img>
       </a>
       </a>
       <a href="https://airflow.apache.org">
@@ -83,7 +83,7 @@ style="margin-left:8px;"
          <img width="80" height="80" src="https://github.com/voodootikigod/logo.js/blob/master/js.png"></img>
       </a>
       <a href="https://d3js.org">
-         <img width="80" height="80" src="https://github.com/thenick775/testreadme/blob/main/d3-seeklogo.com.svg"></img>
+         <img width="80" height="80" src="https://github.com/thenick775/thenick775/blob/main/d3-seeklogo.com.svg"></img>
       </a>
     </ul>
   </div>
