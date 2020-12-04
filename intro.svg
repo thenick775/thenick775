@@ -1,31 +1,30 @@
 <!-- original by felix rilling: https://codepen.io/FelixRilling/pen/vNJoMy, edited by reeveng https://github.com/reeveng -->
-<svg preserveAspectRatio="xMinYMin" fill="none" viewBox="0 0 800 300" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<svg preserveAspectRatio="xMinYMin" fill="none" viewBox="0 0 300 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .container {
+                padding-left:40%;
                 font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
+
+
                 margin: 0;
                 width: 100%;
                 height: 350px;
-                /* background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7); */
                 background: #333;
                 background-size: 600% 400%;
                 border-radius: 10px;
-                /* color: white; */
-                text-align: center;
                 }
                 h1 {
-                text-align: center;
+                width: 100%;
+                position:absolute;
+                padding-top:30%;
                 color: #fff;
                 font-size: 4vw;
                 letter-spacing: 8px;
                 font-family: "Lucida Console", Monaco, monospace;   
                 font-weight: 400;
+                width:900px;
                 /*Create overlap*/
                 
                 margin: 0;
@@ -44,14 +43,14 @@
                 }
                 
                 h2 {
-                padding-top:10%;
-                text-align: center;
+                position:absolute;
+                padding-top:50%;
                 color: #fff;
                 font-size: 2.5vw;
                 letter-spacing: 8px;
                 font-family: "Lucida Console", Monaco, monospace;   
                 font-weight: 400;
-                width:100%;
+                width:800px;
                 /*Create overlap*/
                 
                 margin: 0;
@@ -233,7 +232,7 @@
                 }
                 }
             </style>
-            <div x="50%" y ="50%" class="container" width="100%" height="100%">
+            <div class="container" width="100%" height="100%">
                 <h1>Hey, I'm Nick!</h1>
                 <h1>Hey, I'm Nick!</h1>
                 <h1>Hey, I'm Nick!</h1>
@@ -242,3 +241,4 @@
         </div>
     </foreignObject>
 </svg>
+
