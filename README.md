@@ -17,7 +17,7 @@ I'm a student of Computer Science, currently beginning my masters at the Univers
 - 📝 [My Resume](https://rawcdn.githack.com/thenick775/resume_latex/52ae4c68c9a201f3fe3270f17bd6740d049c1623/resume.pdf)
 
 <h2>💻 Some Personal Stats 💻</h2>
-<img alt="Nicks's github stats" src="https://github-readme-stats.vercel.app/api?username=thenick775&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515" ></img>
+<img alt="Nicks's github stats" src="https://github-readme-stats.vercel.app/api?username=thenick775&&orgs=Terbine&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515" ></img>
 
 <div class="row">
   <div class="column">
