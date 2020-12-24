@@ -1,4 +1,4 @@
-<img src="https://github.com/thenick775/thenick775/blob/testingbeforemaster/intro.gif">
+<img src="https://github.com/thenick775/thenick775/blob/testingbeforemaster/introv2.gif">
 
 ![Hitcount](https://komarev.com/ghpvc/?username=thenick775)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/nicholas-vancise-65381619b)
