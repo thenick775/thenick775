@@ -1,4 +1,5 @@
 #requires imagemagic
+#round gif corners
 convert ./intro.gif -coalesce \
 null: \
 \( ./intro.gif[0]  -alpha extract \
@@ -10,5 +11,5 @@ null: \
 -layers composite \
 -layers optimize \
 ./intro_rounded.gif;
-
+#adjust delay of original, loop forever
 convert -delay 6 -loop 0 ./intro_rounded.gif ./intro_v3.gif
