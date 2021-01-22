@@ -85,6 +85,9 @@ style="margin-left:8px;"
       <a href="https://d3js.org">
          <img width="80" height="80" src="https://github.com/thenick775/thenick775/blob/main/d3-seeklogo.com.svg"></img>
       </a>
+      <a href="https://www.djangoproject.com">
+        <img width="80" height="80" src="https://github.com/thenick775/thenick775/blob/main/1c8b9dae-46f0-4399-b908-ed8e1e6203ac-thumbnails-Daco_2081416.png"></img>
+      </a>
     </ul>
   </div>
 </div>
