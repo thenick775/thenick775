@@ -13,7 +13,7 @@ I'm a student of Computer Science, currently beginning my masters at the Univers
 - 🤔 I’m always looking to expand my knowlege, where I have been focusing on Golang and Python recently.
 - ⚡ Fun fact: I'm a musician, and a thorough lover of anything Sci-Fi! 
 - 💬 Ask me about anything and everything!
-- 🌐 [My Website](https://nicholas-vancise.glitch.me)
+- 🌐 [My Website](https://nicholas-vancise.dev)
 - 📝 [My Resume](https://rawcdn.githack.com/thenick775/resume_latex/b41eac401b9cd7dec2c9887915c8284dc12d083b/resume.pdf)
 
 <h2>💻 Some Personal Stats 💻</h2>
