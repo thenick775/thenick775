@@ -24,7 +24,7 @@ I'm a student of Computer Science, currently beginning my masters at the Univers
     <h2>Technologies Utilized</h2>
     <ul>
       <a href="https://golang.org">
-        <img width="65" height="80" src="https://raw.github.com/golang-samples/gopher-vector/master/gopher.png"></img>
+        <img width="65" height="80" src="https://github.com/thenick775/thenick775/blob/main/gopher.png"></img>
       </a>
       <a href="https://www.postgresql.org">
         <img width="80" height="80" src="https://github.com/gilbarbara/logos/blob/master/logos/postgresql.svg"></img>
