@@ -14,7 +14,7 @@ I'm a student of Computer Science, currently beginning my masters at the Univers
 - ⚡ Fun fact: I'm a musician, and a thorough lover of anything Sci-Fi! 
 - 💬 Ask me about anything and everything!
 - 🌐 [My Website](https://nicholas-vancise.dev)
-- 📝 [My Resume](https://rawcdn.githack.com/thenick775/resume_latex/b41eac401b9cd7dec2c9887915c8284dc12d083b/resume.pdf)
+- 📝 [My Resume](https://raw.githack.com/thenick775/resume_latex/master/resume.pdf)
 
 <h2>💻 Some Personal Stats 💻</h2>
 <img alt="Nicks's github stats" src="https://github-readme-stats.vercel.app/api?username=thenick775&orgs=Terbine&count_private=true&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515" ></img>
