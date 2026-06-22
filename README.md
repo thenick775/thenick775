@@ -1,6 +1,6 @@
 <img src="./intro_v3.gif">
 
-<img alt="welcome" src="./intro.svg" width="100%" />
+<img alt="welcome" src="./assets/intro.svg" width="100%" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thenick775/thenick775/output/github-contribution-grid-snake-dark.svg" />
