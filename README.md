@@ -1,5 +1,3 @@
-<img src="./intro_v3.gif">
-
 <img alt="welcome" src="./assets/intro.svg" width="100%" />
 
 <picture>
