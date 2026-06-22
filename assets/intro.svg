@@ -1,0 +1,167 @@
+<!-- original by felix rilling: https://codepen.io/FelixRilling/pen/vNJoMy, edited for this banner layout -->
+<svg
+    viewBox="0 0 1080 400"
+    width="1080"
+    height="400"
+    preserveAspectRatio="xMidYMid meet"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <style>
+        :root {
+            --glitch-duration: 3.5s;
+        }
+
+        .bg {
+            fill: #555;
+        }
+
+        .title {
+            font-family: "Lucida Console", Monaco, monospace;
+            font-size: 82px;
+            font-weight: 400;
+            letter-spacing: 7px;
+            dominant-baseline: middle;
+            text-anchor: middle;
+            animation: glitch1 var(--glitch-duration) infinite;
+        }
+
+        .subtitle {
+            font-family: "Lucida Console", Monaco, monospace;
+            font-size: 48px;
+            font-weight: 400;
+            letter-spacing: 8px;
+            dominant-baseline: middle;
+            text-anchor: middle;
+            animation: glitch1 var(--glitch-duration) infinite;
+        }
+
+        .main {
+            fill: #fff;
+        }
+
+        .cyan {
+            fill: #67f3da;
+            opacity: 0.25;
+            animation: glitch2 var(--glitch-duration) infinite;
+        }
+
+        .red {
+            fill: #f16f6f;
+            opacity: 0.25;
+            animation: glitch3 var(--glitch-duration) infinite;
+        }
+
+        @keyframes glitch1 {
+            0%,
+            10%,
+            27%,
+            35%,
+            50%,
+            52%,
+            72%,
+            80%,
+            100% {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+
+            7% {
+                transform: skew(-0.5deg, -0.9deg);
+                opacity: 0.75;
+            }
+
+            30% {
+                transform: skew(0.8deg, -0.1deg);
+                opacity: 0.75;
+            }
+
+            55% {
+                transform: skew(-1deg, 0.2deg);
+                opacity: 0.75;
+            }
+
+            75% {
+                transform: skew(0.4deg, 1deg);
+                opacity: 0.75;
+            }
+        }
+
+        @keyframes glitch2 {
+            0%,
+            10%,
+            27%,
+            35%,
+            50%,
+            52%,
+            72%,
+            80%,
+            100% {
+                transform: translate(0, 0);
+                opacity: 0.25;
+            }
+
+            7% {
+                transform: translate(-2px, -3px);
+                opacity: 0.5;
+            }
+
+            30% {
+                transform: translate(-5px, -2px);
+                opacity: 0.5;
+            }
+
+            55% {
+                transform: translate(-5px, -1px);
+                opacity: 0.5;
+            }
+
+            75% {
+                transform: translate(-2px, -6px);
+                opacity: 0.5;
+            }
+        }
+
+        @keyframes glitch3 {
+            0%,
+            10%,
+            27%,
+            35%,
+            50%,
+            52%,
+            72%,
+            80%,
+            100% {
+                transform: translate(0, 0);
+                opacity: 0.25;
+            }
+
+            7% {
+                transform: translate(2px, 3px);
+                opacity: 0.5;
+            }
+
+            30% {
+                transform: translate(5px, 2px);
+                opacity: 0.5;
+            }
+
+            55% {
+                transform: translate(5px, 1px);
+                opacity: 0.5;
+            }
+
+            75% {
+                transform: translate(2px, 6px);
+                opacity: 0.5;
+            }
+        }
+    </style>
+
+    <rect class="bg" x="0" y="0" width="1080" height="400" rx="32" />
+
+    <text class="title cyan" x="540" y="150">Hey, I'm Nick!</text>
+    <text class="title red" x="540" y="150">Hey, I'm Nick!</text>
+    <text class="title main" x="540" y="150">Hey, I'm Nick!</text>
+
+    <text class="subtitle main" x="540" y="238">Welcome to my Github</text>
+</svg>

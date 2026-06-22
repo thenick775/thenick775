@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="50pt"
+  height="50pt"
+  viewBox="15 15 98 98"
+  version="1.1"
+  class="javascript-logo"
+>
+  <style>
+    .javascript-logo-stop1 { stop-color: rgb(10.196079%, 42.745098%, 100%); stop-opacity: 1; }
+    .javascript-logo-stop2 { stop-color: rgb(78.431374%, 13.333334%, 100%); stop-opacity: 1; }
+    .javascript-logo-stop3 { stop-color: rgb(54.11765%, 70.588237%, 100%); stop-opacity: 1; }
+    .javascript-logo-stop4 { stop-color: rgb(89.411765%, 57.254905%, 100%); stop-opacity: 1; }
+    .javascript-logo-stop5 { stop-color: rgb(54.11765%, 70.588237%, 100%); stop-opacity: 1; }
+    .javascript-logo-stop6 { stop-color: rgb(89.411765%, 57.254905%, 100%); stop-opacity: 1; }
+    .javascript-logo-black-rect { fill: rgb(20%, 20%, 20%); fill-opacity: 1; stroke: none; }
+    .javascript-logo-path { stroke: none; fill-rule: nonzero; }
+    .javascript-logo-path1 { fill: url(#linear0); }
+    .javascript-logo-path2 { fill: url(#linear1); }
+    .javascript-logo-path3 { fill: url(#linear2); }
+  </style>
+  <defs>
+    <linearGradient
+      id="linear0"
+      gradientUnits="userSpaceOnUse"
+      x1="86"
+      y1="24.303061"
+      x2="86"
+      y2="147.842056"
+      gradientTransform="matrix(0.744186,0,0,0.744186,0,0)"
+    >
+      <stop offset="0" class="javascript-logo-stop1" />
+      <stop offset="1" class="javascript-logo-stop2" />
+    </linearGradient>
+    <linearGradient
+      id="linear1"
+      gradientUnits="userSpaceOnUse"
+      x1="122.490883"
+      y1="95.892693"
+      x2="122.490883"
+      y2="134.888306"
+      gradientTransform="matrix(0.744186,0,0,0.744186,0,0)"
+    >
+      <stop offset="0" class="javascript-logo-stop3" />
+      <stop offset="1" class="javascript-logo-stop4" />
+    </linearGradient>
+    <linearGradient
+      id="linear2"
+      gradientUnits="userSpaceOnUse"
+      x1="91.59269"
+      y1="95.892693"
+      x2="91.59269"
+      y2="134.888306"
+      gradientTransform="matrix(0.744186,0,0,0.744186,0,0)"
+    >
+      <stop offset="0" class="javascript-logo-stop5" />
+      <stop offset="1" class="javascript-logo-stop6" />
+    </linearGradient>
+  </defs>
+  <g id="surface11413690">
+    <rect
+      x="18"
+      y="18"
+      width="92"
+      height="92"
+      rx="10"
+      ry="10"
+      class="javascript-logo-black-rect"
+    />
+    <path
+      class="javascript-logo-path javascript-logo-path1"
+      d="M 102 16 L 26 16 C 20.398438 16 16 20.398438 16 26 L 16 102 C 16 107.601562 20.398438 112 26 112 L 102 112 C 107.601562 112 112 107.601562 112 102 L 112 26 C 112 20.398438 107.601562 16 102 16 Z M 108 102 C 108 105.398438 105.398438 108 102 108 L 26 108 C 22.601562 108 20 105.398438 20 102 L 20 26 C 20 22.601562 22.601562 20 26 20 L 102 20 C 105.398438 20 108 22.601562 108 26 Z M 108 102 "
+    />
+    <path
+      class="javascript-logo-path javascript-logo-path2"
+      d="M 93.398438 83 L 91.800781 82.398438 C 89 81.199219 87.800781 80.398438 87.800781 78.398438 C 87.800781 76.800781 89 75.601562 90.800781 75.601562 C 92.398438 75.601562 93.398438 76.199219 94.398438 77.601562 C 94.601562 78 95.199219 78.199219 95.800781 77.800781 L 99.199219 75.601562 C 99.601562 75.398438 99.800781 74.601562 99.601562 74.199219 C 97.601562 71.199219 94.800781 70 91 70 C 85.199219 70 81.601562 73.601562 81.601562 78.398438 C 81.601562 83.601562 84.601562 86.199219 89.398438 88 L 91 88.601562 C 94 89.800781 95.398438 90.601562 95.398438 92.800781 C 95.398438 94.601562 94 96 91.398438 96 C 88.601562 96 87.199219 94.398438 85.800781 92.398438 C 85.398438 92 84.800781 91.800781 84.398438 92.199219 L 81 94.398438 C 80.601562 94.601562 80.398438 95.199219 80.601562 95.800781 C 82.601562 99.199219 85.800781 101.800781 91.398438 101.800781 C 97.601562 101.800781 102 98.601562 102 92.800781 C 102 87.601562 99 85.199219 93.398438 83 Z M 93.398438 83 "
+    />
+    <path
+      class="javascript-logo-path javascript-logo-path3"
+      d="M 77 70 L 72.398438 70 C 71.800781 70 71.398438 70.398438 71.398438 71 L 71.398438 91.199219 C 71.398438 94.398438 70.199219 95.199219 68 95.199219 C 66.199219 95.199219 64.800781 94.199219 63.800781 92.800781 C 63.601562 92.398438 63 92.199219 62.398438 92.601562 L 58.800781 94.800781 C 58.398438 95 58.199219 95.800781 58.398438 96.199219 C 60.199219 99.199219 63.601562 102 68.398438 102 C 74.199219 102 78 99 78 92.199219 L 78 71 C 78 70.398438 77.601562 70 77 70 Z M 77 70 "
+    />
+  </g>
+</svg>
