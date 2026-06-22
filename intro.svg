@@ -1,237 +1,167 @@
 <!-- original by felix rilling: https://codepen.io/FelixRilling/pen/vNJoMy, edited for this banner layout -->
-<svg preserveAspectRatio="xMidYMid meet" fill="none" viewBox="0 0 1080 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-                :root {
-                    --glitch-duration: 3.5s;
-                }
+<svg
+    viewBox="0 0 1080 400"
+    width="1080"
+    height="400"
+    preserveAspectRatio="xMidYMid meet"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <style>
+        :root {
+            --glitch-duration: 3.5s;
+        }
 
-                .container {
-                    position: relative;
-                    margin: 0;
-                    width: 1080px;
-                    height: 400px;
-                    background: #555;
-                    border-radius: 32px;
-                    overflow: hidden;
-                    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-                    text-align: center;
-                }
+        .bg {
+            fill: #555;
+        }
 
-                .title-layer {
-                    position: absolute;
-                    top: 74px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    width: 100%;
-                    margin: 0;
-                    color: #fff;
-                    font-size: 82px;
-                    letter-spacing: 7px;
-                    line-height: 1;
-                    font-family: "Lucida Console", Monaco, monospace;
-                    font-weight: 400;
-                    animation: glitch1 var(--glitch-duration) infinite;
-                }
+        .title {
+            font-family: "Lucida Console", Monaco, monospace;
+            font-size: 82px;
+            font-weight: 400;
+            letter-spacing: 7px;
+            dominant-baseline: middle;
+            text-anchor: middle;
+            animation: glitch1 var(--glitch-duration) infinite;
+        }
 
-                .title-layer.layer-2 {
-                    color: #67f3da;
-                    animation: glitch2 var(--glitch-duration) infinite;
-                }
+        .subtitle {
+            font-family: "Lucida Console", Monaco, monospace;
+            font-size: 48px;
+            font-weight: 400;
+            letter-spacing: 8px;
+            dominant-baseline: middle;
+            text-anchor: middle;
+            animation: glitch1 var(--glitch-duration) infinite;
+        }
 
-                .title-layer.layer-3 {
-                    color: #f16f6f;
-                    animation: glitch3 var(--glitch-duration) infinite;
-                }
+        .main {
+            fill: #fff;
+        }
 
-                .subtitle {
-                    position: absolute;
-                    top: 168px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    width: 100%;
-                    margin: 0;
-                    color: #fff;
-                    font-size: 48px;
-                    letter-spacing: 8px;
-                    line-height: 1;
-                    font-family: "Lucida Console", Monaco, monospace;
-                    font-weight: 400;
-                    animation: glitch1 var(--glitch-duration) infinite;
-                }
+        .cyan {
+            fill: #67f3da;
+            opacity: 0.25;
+            animation: glitch2 var(--glitch-duration) infinite;
+        }
 
-                @keyframes glitch1 {
-                    0% {
-                        transform: translateX(-50%);
-                        opacity: 1;
-                    }
-                    7% {
-                        transform: translateX(-50%) skew(-0.5deg, -0.9deg);
-                        opacity: 0.75;
-                    }
-                    10% {
-                        transform: translateX(-50%);
-                        opacity: 1;
-                    }
-                    27% {
-                        transform: translateX(-50%);
-                        opacity: 1;
-                    }
-                    30% {
-                        transform: translateX(-50%) skew(0.8deg, -0.1deg);
-                        opacity: 0.75;
-                    }
-                    35% {
-                        transform: translateX(-50%);
-                        opacity: 1;
-                    }
-                    52% {
-                        transform: translateX(-50%);
-                        opacity: 1;
-                    }
-                    55% {
-                        transform: translateX(-50%) skew(-1deg, 0.2deg);
-                        opacity: 0.75;
-                    }
-                    50% {
-                        transform: translateX(-50%);
-                        opacity: 1;
-                    }
-                    72% {
-                        transform: translateX(-50%);
-                        opacity: 1;
-                    }
-                    75% {
-                        transform: translateX(-50%) skew(0.4deg, 1deg);
-                        opacity: 0.75;
-                    }
-                    80% {
-                        transform: translateX(-50%);
-                        opacity: 1;
-                    }
-                    100% {
-                        transform: translateX(-50%);
-                        opacity: 1;
-                    }
-                }
+        .red {
+            fill: #f16f6f;
+            opacity: 0.25;
+            animation: glitch3 var(--glitch-duration) infinite;
+        }
 
-                @keyframes glitch2 {
-                    0% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    7% {
-                        transform: translate(calc(-50% - 2px), -3px);
-                        opacity: 0.5;
-                    }
-                    10% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    27% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    30% {
-                        transform: translate(calc(-50% - 5px), -2px);
-                        opacity: 0.5;
-                    }
-                    35% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    52% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    55% {
-                        transform: translate(calc(-50% - 5px), -1px);
-                        opacity: 0.5;
-                    }
-                    50% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    72% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    75% {
-                        transform: translate(calc(-50% - 2px), -6px);
-                        opacity: 0.5;
-                    }
-                    80% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    100% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                }
+        @keyframes glitch1 {
+            0%,
+            10%,
+            27%,
+            35%,
+            50%,
+            52%,
+            72%,
+            80%,
+            100% {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
 
-                @keyframes glitch3 {
-                    0% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    7% {
-                        transform: translate(calc(-50% + 2px), 3px);
-                        opacity: 0.5;
-                    }
-                    10% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    27% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    30% {
-                        transform: translate(calc(-50% + 5px), 2px);
-                        opacity: 0.5;
-                    }
-                    35% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    52% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    55% {
-                        transform: translate(calc(-50% + 5px), 1px);
-                        opacity: 0.5;
-                    }
-                    50% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    72% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    75% {
-                        transform: translate(calc(-50% + 2px), 6px);
-                        opacity: 0.5;
-                    }
-                    80% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                    100% {
-                        transform: translateX(-50%);
-                        opacity: 0.25;
-                    }
-                }
-            </style>
-            <div class="container">
-                <h1 class="title-layer">Hey, I'm Nick!</h1>
-                <h1 class="title-layer layer-2">Hey, I'm Nick!</h1>
-                <h1 class="title-layer layer-3">Hey, I'm Nick!</h1>
-                <h2 class="subtitle">Welcome to my Github</h2>
-            </div>
-        </div>
-    </foreignObject>
+            7% {
+                transform: skew(-0.5deg, -0.9deg);
+                opacity: 0.75;
+            }
+
+            30% {
+                transform: skew(0.8deg, -0.1deg);
+                opacity: 0.75;
+            }
+
+            55% {
+                transform: skew(-1deg, 0.2deg);
+                opacity: 0.75;
+            }
+
+            75% {
+                transform: skew(0.4deg, 1deg);
+                opacity: 0.75;
+            }
+        }
+
+        @keyframes glitch2 {
+            0%,
+            10%,
+            27%,
+            35%,
+            50%,
+            52%,
+            72%,
+            80%,
+            100% {
+                transform: translate(0, 0);
+                opacity: 0.25;
+            }
+
+            7% {
+                transform: translate(-2px, -3px);
+                opacity: 0.5;
+            }
+
+            30% {
+                transform: translate(-5px, -2px);
+                opacity: 0.5;
+            }
+
+            55% {
+                transform: translate(-5px, -1px);
+                opacity: 0.5;
+            }
+
+            75% {
+                transform: translate(-2px, -6px);
+                opacity: 0.5;
+            }
+        }
+
+        @keyframes glitch3 {
+            0%,
+            10%,
+            27%,
+            35%,
+            50%,
+            52%,
+            72%,
+            80%,
+            100% {
+                transform: translate(0, 0);
+                opacity: 0.25;
+            }
+
+            7% {
+                transform: translate(2px, 3px);
+                opacity: 0.5;
+            }
+
+            30% {
+                transform: translate(5px, 2px);
+                opacity: 0.5;
+            }
+
+            55% {
+                transform: translate(5px, 1px);
+                opacity: 0.5;
+            }
+
+            75% {
+                transform: translate(2px, 6px);
+                opacity: 0.5;
+            }
+        }
+    </style>
+
+    <rect class="bg" x="0" y="0" width="1080" height="400" rx="32" />
+
+    <text class="title cyan" x="540" y="150">Hey, I'm Nick!</text>
+    <text class="title red" x="540" y="150">Hey, I'm Nick!</text>
+    <text class="title main" x="540" y="150">Hey, I'm Nick!</text>
+
+    <text class="subtitle main" x="540" y="238">Welcome to my Github</text>
 </svg>
