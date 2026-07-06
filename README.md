@@ -23,7 +23,7 @@ I'm forever a student of Computer Science, currently learning and forever growin
 - 📝 [My Resume](https://thenick775.github.io/resume_latex/resume.pdf)
 
 <h2>💻 Some Personal Stats 💻</h2>
-<img alt="Nicks's github stats" src="https://github-readme-stats.vercel.app/api?username=thenick775&orgs=Terbine&count_private=true&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515" ></img>
+<img alt="Nicks's github stats" src="https://github-stats-extended.vercel.app/api?username=thenick775&orgs=Terbine&count_private=true&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515" ></img>
 
 <h2>Technologies Utilized</h2>
 <ul style="list-style: none; padding: 0; margin: 0;">
